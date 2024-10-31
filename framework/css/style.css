@@ -1,0 +1,776 @@
+.plugin_copyright {
+	width: 290px; 
+	float: right;
+	margin: 10px 0px 20px 0px;
+}
+.plugin_copyright img {
+	float: right;
+}
+.plugin_header ul {
+	float: left;
+	margin: 0px 0px 0px 20px;
+}
+.plugin_icon {
+	float: left;
+	width: 80px; 
+	height: 80px;
+	margin: 5px 0px 0px 0px;
+}
+.plugin_header {
+	border: 1px solid #d2d2d2;
+	margin: 15px 0px 0px 0px;
+	float: left;
+	width: 840px; 
+	padding: 5px;
+	background: #e5e5e5 ;
+	text-shadow: 0 1px 0 #FFF;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	font-size: 12px;
+	color: #464646;
+	text-shadow: 0 1px 0 #FFF;
+	font-weight: bold !important;
+}
+.plugin_name_author {
+	float: left;
+	margin: 0px 0px 0px 15px;
+	width: 350px; 
+}
+
+#seoplugins_fields .ui-tabs-nav {
+	width: 850px; 
+}
+#seoplugins_fields .option_content {
+	background-color: #f5f4f4;
+}
+.submit-footer {
+	float: left;
+	margin-right: 20px
+}
+
+.reset-button {
+	background: #FF9B9B none !important
+}
+
+.title .submit {
+	margin: 2px 0
+}
+
+body.wp-admin {
+    min-width: 1220px !important;
+}
+
+/*
+body.wp-admin {
+    min-width: 1350px !important;
+}
+
+#poststuff {
+    min-width: 1150px !important;
+}
+*/
+
+#seoplugins_fields h2, #post-body h2, #side-info-column h2{
+	padding-bottom: 0px !important;
+	margin: 0px;
+	padding: 0px;
+}
+
+#seoplugins_fields h2 span, #post-body h2 span, , #side-info-column h2 span {
+	color: #888;
+	font-size: 10px;
+	font-style: normal;
+	font-family: verdana, arial
+}
+
+#seoplugins_fields h2 span a, #post-body h2 span a, #side-info-column h2 span a {
+	color: #aaa;
+	text-decoration: none
+}
+
+#seoplugins_fields h2 span a:hover,  #post-body h2 span a:hover, #side-info-column h2 span a:hover {
+	color: #888;
+	text-decoration: underline
+}
+
+#seoplugins_fields .title, #post-body .title, #side-info-column .title {
+	margin: 20px 0 0 0 !important;
+	width: 850px;
+	border: 1px #DFDFDF solid;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	line-height: normal
+}
+
+#seoplugins_fields .title h3, #post-body .title h3, #side-info-column .title h3 {
+	background: #DFDFDF url(../images/gray-grad.png)
+		repeat-x scroll left top;
+	text-shadow: 0 1px 0 #FFF;
+	padding: 7px 9px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	font-size: 12px;
+	color: #464646;
+	text-shadow: 0 1px 0 #FFF;
+	font-weight: bold !important;
+	margin: 0 !important;
+	cursor: pointer
+}
+
+#seoplugins_fields .title h3:hover, #post-body .title h3:hover, #side-info-column .title h3:hover {
+	color: #000
+}
+
+#seoplugins_fields .title p.submit, #post-body .title p.submit, #side-info-column .title p.submit {
+	float: right;
+	padding: 0px
+}
+
+#seoplugins_fields .seoplugins-expand, #post-body .seoplugins-expand, #side-info-column .seoplugins-expand {
+	color: #777;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 15px;
+	margin: 3px 10px 0 0;
+	padding: 2px 1px 2px 2px;
+	width: 18px;
+	height: 15px;
+	text-align: center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px
+}
+
+#seoplugins_fields .container, #post-body .container, #side-info-column .container {
+	background: #EAF3FA;
+	padding: 10px
+}
+
+#seoplugins_fields .titledesc, #post-body .titledesc {
+	font-size: 11px;
+	border: 0px #666 solid;
+	font-weight: bold;
+	display: block;
+	line-height: 1.2em;
+	float: left;
+	width: 150px;
+	margin-right: 10px
+}
+
+#side-info-column .titledesc {
+	font-size: 11px;
+	border: 0px #666 solid;
+	font-weight: bold;
+	display: block;
+	line-height: 1.2em;
+	float: left;
+	margin-bottom: 5px
+}
+
+#seoplugins_fields .formcontainer, #post-body .formcontainer, #side-info-column .formcontainer {
+	float: left
+}
+
+#post-body .formcontainer {
+    width: 480px;
+    position: relative;
+}
+
+
+#seoplugins_fields .forminp, #post-body .forminp, #side-info-column .forminp {
+	valign: middle !important;
+	float: left
+}
+
+#seoplugins_fields .forminp input, #seoplugins_fields .forminp select, #seoplugins_fields .forminp textarea,
+#post-body .forminp input, #post-body .forminp select, #post-body .forminp textarea
+{
+	margin-bottom: 9px !important;
+	background-color: #f1f1f1;
+	border: 1px solid;
+	border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
+	width: 275px;
+	padding: 4px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana,
+		sans-serif;
+	font-size: 12px
+}
+
+#side-info-column .forminp input, #side-info-column .forminp select, #side-info-column .forminp textarea {
+	margin-bottom: 9px !important;
+	background-color: #f1f1f1;
+	border: 1px solid;
+	border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
+	width: 250px;
+	padding: 4px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana,
+		sans-serif;
+	font-size: 12px
+}
+
+#side-info-column .forminp select {
+    padding: 0 0 0 4px;
+    width: 250px;
+
+}
+
+
+#seoplugins_fields .forminp select, #post-body .forminp select {
+	padding: 0 0 0 4px;
+	width: 300px
+}
+
+#seoplugins_fields .forminp input.upload-input-text, #post-body .forminp input.upload-input-text {
+	width: 300px;
+	margin-right: 10px
+}
+
+#side-info-column .forminp input.upload-input-text {
+	width: 250px;
+	margin-right: 10px
+}
+
+#seoplugins_fields .forminp input:focus, #post-body .forminp input:focus, #side-info-column .forminp input:focus, .forminp select:focus, .forminp textarea:focus
+{
+	background: #fff;
+}
+
+#seoplugins_fields .forminp span,#post-body .forminp span {
+	font-size: 9px !important;
+	width: 300px !important;
+	font-weight: normal !important;
+	line-height: 14px !important
+}
+
+#side-info-column .forminp span,.forminp h5 {
+	font-size: 9px !important;
+	width: 250px !important;
+	font-weight: normal !important;
+	line-height: 14px !important
+}
+
+#seoplugins_fields .input-text-small,#post-body .input-text-small, #side-info-column .input-text-small {
+	width: 80px !important
+}
+
+#seoplugins_fields .input-text-small, #post-body .input-text-small,  #side-info-column .input-text-small,
+#addcat .input-text-small, #editcat .input-text-small{
+	width: 80px !important
+}
+
+#seoplugins_fields .meta-two, #post-body .meta-two, #side-info-column .meta-two,
+#addcat .meta-two, #editcat .meta-two{
+	margin: 0 10px
+}
+
+#seoplugins_fields .info {
+	background: #f5f5f5;
+	border: 2px solid #ccc;
+	color: #333;
+	width: 830px;
+}
+
+#seoplugins_fields .info h2 {
+    margin-bottom: 5px;
+}
+
+#side-info-column .info {
+	background: #f5f5f5;
+	border: 2px solid #ccc;
+	color: #333;
+	width: 250px
+}
+
+#seoplugins_fields .forminp .checkbox, #post-body .forminp .checkbox, #side-info-column .forminp .checkbox {
+	width: 20px;
+	border: 0;
+	background: transparent none
+}
+
+#seoplugins_fields .forminp .single_checkbox, #addcat .single_checkbox, #addcat .checkbox, #side-info-column .forminp  .single_checkbox,
+#editcat .single_checkbox, #editcat .checkbox, #post-body .forminp  .single_checkbox  {
+	width: 20px;
+	border: 0;
+	background: transparent none
+}
+
+#addcat select, #editcat select   {
+	width: 300px;
+}
+
+#seoplugins_fields .option-radio input, #post-body .option-radio input,
+#side-info-column .option-radio input {
+	width: 30px;
+	text-align: left
+}
+
+#seoplugins_fields .info a, #post-body .info a, #side-info-column .info a {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px dotted #333
+}
+
+.wrap {
+	margin-left: 0 !important
+}
+
+#seoplugins_fields .info a:hover, #post-body .info a:hover, #side-info-column .info a:hover {
+	color: #666;
+	border-bottom: 1px dotted #666
+}
+
+#seoplugins_fields .welcome, #post-body .welcome, #side-info-column .welcome {
+	float: left;
+	padding-top: 4px
+}
+
+#seoplugins_fields .warning, #post-body .warning {
+	background: #fee;
+	border: 1px solid #dfbfbf;
+	color: #333;
+	font-weight: bold;
+	width: 830px
+}
+
+#side-info-column .warning {
+	background: #fee;
+	border: 1px solid #dfbfbf;
+	color: #333;
+	font-weight: bold;
+	width: 250px
+}
+
+#seoplugins_fields .errors, #post-body .errors, #side-info-column .errors {
+	background: #fded82 url(../images/error.png) no-repeat 10px center;;
+	border: 1px solid #fcc55c;
+	color: #333;
+	font-weight: normal;
+	width: 680px
+}
+
+#seoplugins_fields .errors ul, #post-body .errors ul, #side-info-column .errors ul {
+	list-style: outside;
+	padding-left: 30px
+}
+
+#seoplugins_fields .errors ul li, #post-body .errors ul li, #side-info-column .errors ul li {
+	padding: 5px 0
+}
+
+#seoplugins_fields .happy, #post-body .happy, #side-info-column .happy {
+	background: #DBF6BE;
+	border: 1px solid #9BBF65;
+	color: #060;
+	font-weight: bold;
+	width: 830px
+}
+
+#seoplugins_fields .info, #post-body .info, #side-info-column .info {
+	padding: 5px 10px 15px !important;
+}
+
+#seoplugins_fields .info,#seoplugins_fields .happy,#seoplugins_fields .errors,#seoplugins_fields .warning,
+#post-body .info,#post-body .happy,#post-body .errors,#post-body .warning,
+#side-info-column .info,#side-info-column .happy,#side-info-column .errors,#side-info-column .warning
+	{
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 5px 10px 5px;
+	margin-top: 15px
+}
+
+#seoplugins_fields .desc {
+	font-size: 10px;
+	margin-left: 320px;
+	width: 300px;
+	color: #999;
+	display: block;
+}
+
+#post-body .desc {
+	font-size: 10px;
+	margin-left: 320px;
+	width: 330px !important;
+	color: #999;
+	display: block;
+    line-height: 1.4em;
+}
+
+#side-info-column .desc {
+	font-size: 10px;
+	width: 360px !important;
+    margin-bottom: 10px;
+    float: left;
+	color: #999;
+	display: block;
+    line-height: 1.4em;
+}
+
+#seoplugins_fields .option-checkbox .desc, #post-body .option-checkbox .desc {
+	margin-left: 50px;
+	width: 570px !important;
+}
+
+#side-info-column .option-checkbox .desc {
+	width: 360px
+}
+
+#seoplugins_fields .option_content, #post-body .option_content,
+#side-info-column .option_content {
+	width: 852px;
+	border-bottom: #e3e3e3 solid 1px
+}
+
+#seoplugins_fields .image_uploader .option-inner, #post-body .image_uploader .option-inner {
+	width: 820px !important
+}
+
+#side-info-column .image_uploader .option-inner {
+	width: 250px !important
+}
+
+#seoplugins_fields .option, #post-body .option, #side-info-column .option {
+	display: block;
+	float: left;
+	clear: left;
+	border-color: #d2d2d2;
+	border-width: 1px;
+	border-style: solid;
+    border-top: none;
+}
+#seoplugins_fields .option:hover {
+    background-color: #fff;
+}
+
+#seoplugins_fields .option {
+   width: 850px;
+}
+
+#post-body .option {
+   width: 100%;
+}
+
+#side-info-column .option {
+   width: 250px;
+}
+
+#seoplugins_fields .option-inner {
+	float: left;
+	padding: 10px 15px;
+	margin: 12px 15px;
+    width: 800px;
+}
+
+#post-body .option-inner {
+   float: left;
+   padding: 5px 0;
+   margin: 1px;
+   width: 100%;
+}
+
+#side-info-column .option-inner {
+   padding: 5px 0;
+   margin: 1px;
+   width: 280px;
+}
+
+#seoplugins_fields .uploader_page, #post-body .uploader_page, #side-info-column .uploader_page {
+	background-color: #f1f1f;
+	border: solid #e6e6e6;
+	border-width: 0px 1px 1px 1px;
+	padding: 10px;
+	width: 830px
+}
+
+#seoplugins_fields .uploader_page_image, #post-body .uploader_page_image,
+#side-info-column .uploader_page_image {
+	float: left
+}
+
+#seoplugins_fields .uploader_page_input, #post-body .uploader_page_input,
+#side-info-column .uploader_page_input {
+	margin-left: 260px
+}
+
+#seoplugins_fields .uploader_page_input span, #post-body .uploader_page_input span,
+#side-info-column .uploader_page_input span {
+	font-size: 12px;
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 700
+}
+
+#seoplugins_fields .uploader_page_input input, #post-body .uploader_page_input input,
+#side-info-column .uploader_page_input input {
+	border: 1px solid #ddd;
+	padding: 4px;
+	width: 460px;
+	font-size: 11px;
+	background-color: #f1f1f1
+}
+
+#seoplugins_fields .upload_input, #post-body .upload_input,
+#side-info-column .upload_input {
+	width: 200px !important;
+	border: #ccc
+}
+
+#seoplugins_fields .upload_save, #post-body .upload_save,
+#side-info-column .upload_save {
+	width: 70px !important
+}
+
+#seoplugins_fields #seoplugins-icon, #post-body #seoplugins-icon, #side-info-column #seoplugins-icon {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 0px !important;
+}
+
+.multiple_box {
+	width: 300px;
+}
+
+.how_to_populate {
+	width: 300px;
+}
+
+table.added_image {
+	width: 100% !important;
+}
+
+.added_image input,.added_image textarea {
+	width: 100% !important;
+}
+
+.upload_button_div {
+	margin-bottom: 10px;
+}
+
+#post-body .upload_button_div, #side-info-column .upload_button_div, #editcat .upload_button_div, #addcat .upload_button_div {
+   margin-top: 5px;
+}
+
+.upload_button_div .button {
+	padding: 4px 14px;
+}
+
+.upload_button_div  .image_reset_button {
+	margin-left: 10px
+}
+
+.upload-error {
+	float: left;
+	color: #666;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	margin: 0 10px 0 0;
+	padding: 3px 10px;
+	background: #FFDFEC;
+	-moz-border-radius: 4px
+}
+
+.reset-button {
+	background: #c77 none !important;
+	color: white !important;
+	text-shadow: 0 1px 0 #555 !important;
+}
+
+.save_bar_top {
+	background: #f3f3f3;
+	border: solid #ccc;
+	border-width: 0px 1px 1px 1px;
+	padding: 10px 20px 0px 20px;
+	height: 35px;
+	text-align: right;
+}
+
+.hide {
+	display: none
+}
+
+.ajax-loading-img-top {
+	margin: 8px 4px 0;
+	float: left
+}
+
+/* Webkit animation keyframes */
+@-webkit-keyframes animate-stripes {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+   background-position: 44px 0;
+  }
+}
+
+/* Bar which is placed behind the progress */
+.ui-progress-bar {
+  /* Usual setup stuff */
+  position: relative;
+  height: 25px;
+
+  /* Pad right so we don't cover the borders when fully progressed */
+  padding-right: 2px;
+
+  /* For browser that don't support gradients, we'll set a blanket background colour */
+  background-color: #abb2bc;
+
+  /* Rounds the ends, we specify an excessive amount to make sure they are completely rounded */
+  /* Adjust to your liking, and don't forget to adjust to the same amount in .ui-progress */
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  /* Webkit background gradient */
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #b6bcc6), color-stop(1, #9da5b0));
+  /* Mozilla background gradient */
+  background: -moz-linear-gradient(#9da5b0 0%, #b6bcc6 100%);
+
+  /* Give it the inset look by adding some shadows and highlights */
+  -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+  -moz-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+}
+
+/* Progress part of the progress bar */
+.ui-progress {
+  /* Usual setup stuff */
+  position: relative;
+  display: block;
+  overflow: hidden;
+
+  /* Height should be 2px less than .ui-progress-bar so as to not cover borders and give it a look of being inset */
+  height: 23px;
+
+  /* Rounds the ends, we specify an excessive amount to make sure they are completely rounded */
+  /* Adjust to your liking, and don't forget to adjust to the same amount in .ui-progress-bar */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+  /* Set the background size so the stripes work correctly */
+  -webkit-background-size: 34px 34px; /* Webkit */
+
+  /* For browser that don't support gradients, we'll set a blanket background colour */
+  background-color: #74d04c;
+
+  /* Webkit background stripes and gradient */
+  background: -webkit-gradient(linear, 0 0, 34 34,
+    color-stop(0.00, rgba(255,255,255,0.17)),
+    color-stop(0.25, rgba(255,255,255,0.17)),
+    color-stop(0.26, rgba(255,255,255,0)),
+    color-stop(0.50, rgba(255,255,255,0)),
+    color-stop(0.51, rgba(255,255,255,0.17)),
+    color-stop(0.75, rgba(255,255,255,0.17)),
+    color-stop(0.76, rgba(255,255,255,0)),
+    color-stop(1.00, rgba(255,255,255,0))
+  ), -webkit-gradient(linear, left bottom, left top, color-stop(0, #74d04c), color-stop(1, #9bdd62));
+
+  /* Mozilla (Firefox etc) background stripes */
+  /* Note: Mozilla's support for gradients is more true to the original design, allowing gradients at 30 degrees, as apposed to 45 degress in webkit. */
+  background: -moz-repeating-linear-gradient(top left -30deg,
+    rgba(255,255,255,0.17),
+    rgba(255,255,255,0.17) 15px,
+    rgba(255,255,255,0) 15px,
+    rgba(255,255,255,0) 20px
+  ), -moz-linear-gradient(#9bdd62 0%, #74d04c 100%);
+
+  /* Webkit embossing */
+  -webkit-box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+  /* Mozilla embossing */
+  -moz-box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+  /* IE9 and Opera embossing */
+  box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+
+  /* Give it a higher contrast outline */
+  border: 1px solid #4c8932;
+
+  /* Webkit magic */
+  -webkit-animation: animate-stripes 2s linear infinite;
+
+  /* TODO: Wait for Mozilla to support animation, then implement */
+}
+
+/* Progress indicator text */
+.ui-progress span.ui-label {
+  font-size: 1.2em;
+  position: absolute;
+  right: 0;
+  line-height: 23px;
+  padding-right: 12px;
+  color: rgba(0,0,0,0.6);
+  text-shadow: rgba(255,255,255, 0.45) 0 1px 0px;
+  white-space: nowrap;
+}
+
+#tooltip {
+	position:absolute;
+	border:1px solid #ccc;
+	background:#f9f9f9;
+	padding:5px 5px;
+	display:none;
+	z-index:100;
+    font-size: 12px;
+    width: 310px;
+}
+
+.seopluginsTable tr td{
+    padding: 6px;
+}
+
+#seopluginsChecklist {
+    position: relative;
+}
+
+#seopluginsOverlay {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-image: url('../images/overlay.png');
+    width: 100%; 
+    height: 500px;
+}
+#seopluginsOverlay h1{
+    position: absolute; 
+    width: 100%; 
+    top: 50%; 
+    margin-top: -8px; 
+    text-align: center; 
+    color: #fff; 
+    font-size: 13px;
+}
+
+#seopluginsChecklist table {
+    filter:alpha(opacity=10);
+    -moz-opacity:0.1;
+    -khtml-opacity: 0.1;
+    opacity: 0.1;
+}
+.seoCountDown {
+    display: block;
+    border: 0px solid red;
+    width: 150px; 
+    height: 20px; 
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    text-align: right;
+}
+.seoTimeMarker {
+    font-weight: bold;
+}
